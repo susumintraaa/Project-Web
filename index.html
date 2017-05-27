@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<div id="contentsEx">
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="shortcut icon" type="image/png" href="https://lh6.ggpht.com/Hp_3th8ss-fJ6Zwi9V3z8bP2xWJn7p1XfT7YlNYfJSpUR1Fyoubj6GkofPGTm2B5ng=w300" />
+<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        
+        $("body").load("index.html");
+    });
+});
+$(document).ready(function(){
+    $("#btn2").click(function(){
+        $("#contents").hide(0).delay(500).fadeIn(500).load("seWorld.html")
+       
+    });
+});
+$(document).ready(function(){
+    $("#btn3").click(function(){
+        $("#contents").hide(0).delay(500).fadeIn(500).load("ticket.xml");
+    });
+});
+$(document).ready(function(){
+    $("#btn4").click(function(){
+        $("#contentsEx").hide(0).delay(500).fadeIn(500).load("Gellery/gal.html");
+    });
+});
+$(document).ready(function(){
+    $("#btn5").click(function(){
+        $("#contents").hide(0).delay(500).fadeIn(500).load("about.html");
+    });
+});
+$(document).ajaxStart(function() { 
+       Pace.restart(); 
+});
+
+</script>
+
+
+	<title>InterStellar</title>
+	
+
+
+</head>
+<body>
+
+
+<div id="head">
+    <h1>INTERSTELLAR</h1>
+    <span>Join a new world with new life</span>
+</div>
+
+<nav >
+  <ul>
+    <a id="btn1">Home</a>
+    <a id="btn2">Select World</a>
+    <a id="btn3">Ticket</a>
+    <a id="btn4">Gallery</a>
+    <a id="btn5">About us</a>
+  </ul>
+  </nav>
+<div><img id="pic" src="img/internet.png"></div>
+
+<div id="contents">
+  <div id="BGvid" >
+
+  <iframe width=100% height=100% src="https://www.youtube.com/embed/vlDzYIIOYmM?autoplay=1&loop=1&enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;startSeconds=5s" frameborder="0" allowfullscreen></iframe>
+  
+  
+</div>
+<div id="logo">
+    <p3>#Interstellar</p3>
+</div>
+
+<div id="des">
+    <article2>
+          <i><dd>   Join with us and go to new world<br> Just 3 hour from earth.<br> <br> Go to see :) <br><br>
+          <ul><li>New tree</li><li>New air</li><li>New land</li><li>New life!!!</li>    </ul></i>
+    </article2> 
+    <i id="fb" class="fa fa-facebook-official" aria-hidden="true"><p2>InterStellarProjects</p2> </i>
+</div>
+<div id="date">-- Tour 1 on this Winter --</div>
+</div>
+
+
+
+
+
+
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
+</div>
